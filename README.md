@@ -6,6 +6,17 @@ Modern full-stack authentication system with React.js (TypeScript + Vite) fronte
 
 🔗 **GitHub Repository**: [https://github.com/ayberkdo/reactjs_nodejs_authentication](https://github.com/ayberkdo/reactjs_nodejs_authentication)
 
+## 📱 Screenshots
+
+### Login Page
+![Login Page](./project_images/login_page.png)
+
+### Register Page  
+![Register Page](./project_images/register_page.png)
+
+### Dashboard
+![Dashboard](./project_images/dashboard_page.png)
+
 ## ✨ Features
 
 ### Frontend (React.js + TypeScript + Vite)
@@ -74,25 +85,28 @@ reactjs_nodejs_authentication/
    ```
 
 2. **Install all dependencies**
+
    ```bash
    npm run install:all
    ```
 
 3. **Setup MySQL Database**
+
    - Install MySQL on your system (XAMPP, WAMP, or standalone MySQL)
    - Start MySQL service
    - Update database credentials in `server/.env`
 
 4. **Environment Configuration**
-   
+
    **Server (.env):**
+
    ```env
    NODE_ENV=development
    PORT=5000
    JWT_SECRET=your-super-secret-jwt-key-change-this-in-production
    JWT_EXPIRES_IN=7d
    CORS_ORIGIN=http://localhost:5173
-   
+
    # Database Configuration
    DB_HOST=localhost
    DB_PORT=3306
@@ -102,11 +116,13 @@ reactjs_nodejs_authentication/
    ```
 
    **Client (.env):**
+
    ```env
    VITE_API_URL=http://localhost:5000/api
    ```
 
 5. **Initialize Database**
+
    ```bash
    cd server
    npm run db:init
@@ -247,6 +263,7 @@ npm run server:start
 ## 📝 Technologies Used
 
 **Frontend:**
+
 - React 19 + TypeScript
 - Vite 7
 - Tailwind CSS 3
@@ -255,6 +272,7 @@ npm run server:start
 - React Hook Form + Zod
 
 **Backend:**
+
 - Node.js + Express 5
 - MySQL + Sequelize 6
 - JWT + bcryptjs
@@ -268,6 +286,7 @@ This project is licensed under the ISC License.
 ## �‍💻 Author
 
 **Ayberk Doğan**
+
 - GitHub: [@ayberkdo](https://github.com/ayberkdo)
 - Repository: [reactjs_nodejs_authentication](https://github.com/ayberkdo/reactjs_nodejs_authentication)
 

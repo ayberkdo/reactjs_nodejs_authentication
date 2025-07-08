@@ -1,13 +1,16 @@
 # Screenshots
 
 ## Login Page
-![Login Page](https://via.placeholder.com/800x600/3b82f6/ffffff?text=Login+Page)
+
+![Login Page](./project_images/login_page.png)
 
 ## Register Page
-![Register Page](https://via.placeholder.com/800x600/10b981/ffffff?text=Register+Page)
+
+![Register Page](./project_images/register_page.png)
 
 ## Dashboard
-![Dashboard](https://via.placeholder.com/800x600/8b5cf6/ffffff?text=Dashboard)
+
+![Dashboard](./project_images/dashboard_page.png)
 
 ## Features
 
